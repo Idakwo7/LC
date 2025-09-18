@@ -1,0 +1,39 @@
+import Hero from "./components/hero";
+import OurApproach from "./components/our-approach";
+import Different from "./components/differnt";
+import HomeTeam from "../components/home-team";
+import Image from "next/image";
+
+export default function AboutUs() {
+  return (
+    <>
+      <Hero />
+      <OurApproach />
+      <Different />
+      <HomeTeam />
+      <div className=" mt-[176px] border-t-[1px] ml-[40%] mr-[11.8%] ">
+        <h2 className="text-[36px] font-bold mb-6 lg:mt-16 text-[#0C4642]">
+          We are passionate about empowering the next generation of African
+          entrepreneurs.
+        </h2>
+        <p className=" mt-6 text-[24px] md:text-[28px] ">
+          If you have a groundbreaking idea or a startup ready for growth, we
+          invite you to explore opportunities with Live Capital. Together, we
+          can turn your vision into reality and make a lasting impact on
+          Africa’s economy.
+        </p>
+        <button className="px-[40px] py-[16px] block bg-[#008560] border rounded-[8px] text-[#FFFFFF] lg:mt-16 z-30 text-[18px]">
+          Submit your pitch
+        </button>
+        <div className=""></div>
+      </div>
+      <Image
+        src="/Background.svg"
+        alt="background"
+        width={1440}
+        height={1024}
+        className="w-full"
+      />
+    </>
+  );
+}
