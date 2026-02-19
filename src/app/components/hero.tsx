@@ -1,4 +1,5 @@
 import Image from "next/image";
+import motion from "framer-motion";
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
         <h3 className="text-[14px] md:text-[28px] mt-6">
           Live Capital turns crazy ideas into successful businesses through
           funding, mentorship, and strategic support.
-          <button className="px-[40px] py-[16px] block bg-[#008560] border rounded-[8px] text-[#FFFFFF] mt-10 z-30 text-[18px]">
+          <button className="px-[40px] py-[16px] block bg-[#008560] border rounded-[8px] text-[#FFFFFF] mt-10 z-30 text-[18px] font-bold">
             Apply Now
           </button>
         </h3>

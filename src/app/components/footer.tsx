@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-[#FFFFFF] text-[242px] mt-10 md:mt-[86px] border-t border-b  border-[#0C5752] py-10 md:py-16">
+        <div className="text-[#FFFFFF] text-[242px] mt-10 md:mt-16 border-t border-b  border-[#0C5752] py-10 md:py-16">
           <Image
             src="/live-capital.svg"
             alt="live-capital"
